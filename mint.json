@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Shippo APIs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/shippo-logo-light.svg",
+    "light": "/logo/shippo-logo-dark.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#12A7D3",
-    "light": "#81D7F7",
-    "dark": "#004E7A"
+    "primary": "#98bf50",
+    "light": "#d6ff8c",
+    "dark": "#485b23"
   },
   "topbarLinks": [
     {
@@ -25,6 +25,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Custom Tab",
+      "url": "custom-tab"
     }
   ],
   "navigation": [
@@ -34,7 +38,13 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation"
+      ]
     },
     {
       "group": "API Documentation",
@@ -48,6 +58,10 @@
         "api-reference/endpoint/update",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "Custom Section Example",
+      "pages": ["custom-tab/test"]
     }
   ],
   "footerSocials": {
